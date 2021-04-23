@@ -55,6 +55,7 @@ nav li a {
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 20px;
+    border-radius: 2%;
 }
 /* fine jumbotron */
 
@@ -62,27 +63,30 @@ nav li a {
 main {
     width: 100%;
     /* height: 400px;  da togliere */
-    background-color: #0086ff;
 }
 
-.top {
-    width: 100%;
-    height: 70px; /* da togliere */
-    background-color:#abcfe7;
-}
 
 aside {
     width: calc(25% - 15px);
-    height: calc(400px - 70px); /* da togliere */
-    background-color:#abcfe7;
+    height: calc(400px - 70px); /* da togliere */;
     margin: 15px 0;
+}
+.left{
+ background-image: url(../img/img-1.jpg);
+ background-size: cover;
+}
+.right{
+    background-image: url(../img/img-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main section {
     width: 50%;
     height: calc(400px - 70px); /* da togliere */
-    background-color:#abcfe7;
+    background-image: url(../img/banner-2.jpg);
     margin: 15px;
+    background-size: cover;
 }
 
 .float {
