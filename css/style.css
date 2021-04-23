@@ -56,49 +56,48 @@ nav li a {
     background-size: cover;
     margin-bottom: 20px;
     border-radius: 2%;
+    position: relative;
 }
 /* fine jumbotron */
-.testo{
+.testo-jumbo{
     color: white;
-    vertical-align: bottom;
-
-    
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
 }
 
 /* inizio main */
 main {
     width: 100%;
-    /* height: 400px;  da togliere */
 }
 
 
 aside {
     width: calc(25% - 15px);
-    height: calc(400px - 70px); /* da togliere */;
     margin: 15px 0;
 }
-.left{
- background-image: url(../img/img-1.jpg);
- background-size: contain;
- border-radius: 2%;
-}
-.right{
-    background-image: url(../img/img-3.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.article-image
+{
+    background-size:cover;
     border-radius: 2%;
+    height: 250px;
 }
 
-main section {
+.image-left{
+ background-image: url(../img/img-1.jpg); 
+}
+
+.image-right{
+    background-image: url(../img/img-3.jpg);
+  
+}
+
+.image-center {    
+    background-image: url(../img/banner-2.jpg);  
+}
+.central{
     width: 50%;
-    height: calc(400px - 70px); /* da togliere */
-    background-color: darkgray;
-    background-image: url(../img/banner-2.jpg);
     margin: 15px;
-    background-size:contain;
-    border-radius: 2%;
-    
 }
 
 .float {
@@ -114,7 +113,6 @@ main section {
 
 footer {
     width: 100%;
-    height: 50px; /* da togliere */
     margin: 10px 0;
     text-align: center;
 }
