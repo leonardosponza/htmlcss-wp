@@ -104,9 +104,13 @@ aside {
     float: left;
     
 }
+.sottotitolo{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
 .lorem{
     vertical-align: bottom;
-   
 }
 
 /* fine main */
