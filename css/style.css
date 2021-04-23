@@ -58,6 +58,12 @@ nav li a {
     border-radius: 2%;
 }
 /* fine jumbotron */
+.testo{
+    color: white;
+    vertical-align: bottom;
+
+    
+}
 
 /* inizio main */
 main {
@@ -73,24 +79,35 @@ aside {
 }
 .left{
  background-image: url(../img/img-1.jpg);
- background-size: cover;
+ background-size: contain;
+ border-radius: 2%;
 }
 .right{
     background-image: url(../img/img-3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 2%;
 }
 
 main section {
     width: 50%;
     height: calc(400px - 70px); /* da togliere */
+    background-color: darkgray;
     background-image: url(../img/banner-2.jpg);
     margin: 15px;
-    background-size: cover;
+    background-size:contain;
+    border-radius: 2%;
+    
 }
 
 .float {
     float: left;
+    
+}
+.lorem{
+    vertical-align: bottom;
+   
 }
 
 /* fine main */
@@ -98,6 +115,9 @@ main section {
 footer {
     width: 100%;
     height: 50px; /* da togliere */
-    background-color: #8701fd;
     margin: 10px 0;
+    text-align: center;
+}
+#cuore{
+    color: red;
 }
